@@ -8,29 +8,37 @@
     <link rel="icon" type="image/x-icon" href="Imgs/feijoada.png">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="div1">
         <header>
-            <a href="">Log In</a>
-            <a href="">Sign Up</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolores optio exercitationem maxime,
+            <div class="divLogeo1">
+                <a href="" class="optionLogueo">Log In</a>
+                <a href="" class="optionLogueo">Sign Up</a>
+            </div>
+            <p class="textLogin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolores optio
+                exercitationem maxime,
                 mollitia eum adipisci nisi dignissimos rem nulla?</p>
         </header>
         <main>
             <section id="section1">
-                <button class="optionLogueo">G</button>
-                <button class="optionLogueo">A</button>
+                <div class="buttonsDiv">
+                    <button class="buttonFastLogin"><img src="Imgs/google.png" alt=""></button>
+                    <button class="buttonFastLogin"><img src="Imgs/logotipo-de-apple.png" alt=""></button>
+                </div>
                 <form action="/" method="post">
-                    <input type="text" pla ceholder="Name" name="name" class="formInput">
+                    <input type="text" placeholder="Name" name="name" class="formInput">
                     <input type="email" placeholder="Email" name="email" class="formInput">
                     <input type="password" placeholder="Password" name="password" class="formInput">
                 </form>
             </section>
             <footer>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa cupiditate, sequi deserunt modi magni
-                perspiciatis.
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa cupiditate, sequi deserunt modi
+                    magniperspiciatis.</p>
                 <button>Sign Up</button>
             </footer>
     </div>
@@ -38,7 +46,7 @@
     <div class="div2">
         <section id="section2">
             <img src="Imgs/Grey Minimalist Healthy Food Instagram Story.png" alt="A picture of Yummi ealthy food"
-                title="Yummi food">
+                title="Yummi food" class="foodImg">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit beatae incidunt sapiente aspernatur
                 animi,ea modi optio, repellendus numquam natus dignissimos officiis quisquam veniam ipsam.</p>

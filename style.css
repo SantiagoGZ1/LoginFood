@@ -1,11 +1,153 @@
+/* General */
 img{
   width: 200px;
 }
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
-.body{
+body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: red;
+  grid-template-rows: 100vh;
+}
+.div1{
+  background-color: rgb(248, 248, 248);
+}
+.div2{
+  background-color: rgb(32, 233, 255);
+}
+
+a{
+  text-decoration: none;
+}
+/* Left */
+/* log in */
+.divLogeo1{
+  display: flex;
+  justify-content: space-around;
+}
+.optionLogueo{
+  width: 200px;
+  height: 65px;
+  display:auto;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(48, 227, 255);
+  padding: 20px 5px;
+  transform: 500ms;
+}
+
+.optionLogueo:hover{
+  cursor: pointer;
+  border-bottom: 1px solid rgb(48, 227, 255);
+}
+.textLogin{
+  font-size: 20px;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  margin: 0px;
+}
+/* Botones */
+.buttonsDiv{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px 20px 20px;
+}
+
+.buttonFastLogin{
+  width: 170px;
+  display:auto;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(208, 208, 208);
+  transition: 500ms;
+}
+
+.buttonFastLogin >img{
+  width: 20px;
+  justify-content: center;
+}
+
+.buttonFastLogin:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(37, 226, 255);
+  /* Si ponemos la animación en el hover, solo se anima al pasar el mouse*/
+}
+
+
+/* Formulario */
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 70px 10px 70px;
+}
+.formInput{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+/* footer */
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 30px;
+}
+footer button{
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(208, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+}
+footer button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(37, 226, 255);
+  /* Si ponemos la animación en el hover, solo se anima al pasar el mouse*/
+}
+
+/* Izquierda */
+/* IMG */
+#section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section2 img{
+  width: 230px;
+  height: auto;
+  margin: auto;
+  object-fit: cover;
+}
+/* title */
+#section2 h2{
+  font-family:'Cabin Condensed', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  margin: 10px;
+}
+/* Text */
+#section2 p{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 30px;
+  margin: 3px;
 }
