@@ -1,0 +1,11 @@
+img{
+  width: 200px;
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: red;
+}
