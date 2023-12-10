@@ -37,7 +37,6 @@ a{
   text-align: center;
   color: rgb(48, 227, 255);
   padding: 20px 5px;
-  transform: 500ms;
 }
 
 .optionLogueo:hover{
@@ -55,11 +54,11 @@ a{
 .buttonsDiv{
   display: flex;
   justify-content: space-around;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 50px;
 }
 
 .buttonFastLogin{
-  width: 170px;
+  width: 150px;
   display:auto;
   font-size: 20px;
   text-align: center;
@@ -67,7 +66,7 @@ a{
   border-radius: 20px;
   border: none;
   background-color: rgb(208, 208, 208);
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .buttonFastLogin >img{
@@ -87,13 +86,34 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 10px 70px 10px 70px;
+  padding: 10px 70px;
 }
 .formInput{
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
+  border-color: rgb(19, 113, 128);
 }
+
+/* Icons form */
+#name{
+  padding-left: 40px; /* Asegúrate de tener algo de padding para que el texto no se superponga con la imagen */
+  background: url(Imgs/perfil.png) no-repeat scroll 7px 7px; /* Cambia 'ruta/a/tu/imagen.png' a la ruta de tu imagen */
+  background-size: 20px 20px;
+}
+#email{
+  padding-left: 40px; /* Asegúrate de tener algo de padding para que el texto no se superponga con la imagen */
+  background: url(Imgs/correo.png) no-repeat scroll 7px 7px; /* Cambia 'ruta/a/tu/imagen.png' a la ruta de tu imagen */
+  background-size: 20px 20px;
+}
+#password{
+  padding-left: 40px; /* Asegúrate de tener algo de padding para que el texto no se superponga con la imagen */
+  background: url(Imgs/bloqueado.png) no-repeat scroll 7px 7px; /* Cambia 'ruta/a/tu/imagen.png' a la ruta de tu imagen */
+  background-size: 20px 20px;
+}
+
+
+
 /* footer */
 footer{
   display: flex;
@@ -116,7 +136,7 @@ footer button{
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 500ms;
+  transition: 300ms;
 }
 footer button:hover{
   cursor: pointer;
@@ -133,7 +153,7 @@ footer button:hover{
   align-items: center;
 }
 #section2 img{
-  width: 230px;
+  width: 240px;
   height: auto;
   margin: auto;
   object-fit: cover;
@@ -151,3 +171,4 @@ footer button:hover{
   padding: 5px 30px;
   margin: 3px;
 }
+
